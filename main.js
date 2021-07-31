@@ -1,8 +1,7 @@
 noseX=0;
 noseY=0;
 
-function preload() {
-  clown_nose = loadImage('https://i.postimg.cc/3x3QzSGq/m.png');
+function preload() { 
 }
 
 function setup() {
@@ -31,10 +30,5 @@ function gotPoses(results)
 }
 
 function draw() {
-  image(video, 0, 0, 300, 300);
-  image(clown_nose, noseX, noseY, 80, 35);
 }
 
-function take_snapshot(){    
-  save('myFilterImage.png');
-}
